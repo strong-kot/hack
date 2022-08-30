@@ -1,0 +1,12 @@
+.myInput{
+    display: inline-block;
+    width: 100%;
+    line-height: 4em;
+    padding: 0 1.5em;
+    border: none;
+    font-size: 1em;
+    border-radius: 25px;
+    background-color: #f2f1ed;
+    color: #a3a29f;
+}
+

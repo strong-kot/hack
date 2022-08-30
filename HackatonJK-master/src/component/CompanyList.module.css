@@ -1,0 +1,17 @@
+.recomend_product_shop{
+
+}
+.inactive_recomend{
+    display: none;
+}
+.title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+@media (max-width: 995px){
+    .title{
+        font-size: 40px;
+    }
+}

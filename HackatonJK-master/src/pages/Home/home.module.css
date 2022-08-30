@@ -1,0 +1,84 @@
+.container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.back1{
+    height: 65vh;
+}
+.coursl{
+
+}
+.myButton{
+    color: white;
+    font-weight: bolder;
+    line-height: 24px;
+    background: #3B9B66;
+    border-radius: 16px;
+    border: 0;
+    width: 314px;
+    height: 45px;
+    margin-top: 30px;
+}
+.container_button{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap:30px;
+    margin-top: 30px;
+}
+.buttonLog{
+    width: 150px;
+    height: 45px;
+    background: #EDF3ED;
+    border-radius: 16px;
+    border: 0;
+    color: #3B9B66;
+}
+.buttonRegistration{
+    width: 150px;
+    height: 45px;
+    background: #3B9B66;
+    border-radius: 16px;
+    border: 0;
+    color: white;
+}
+.back__text{
+ font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+@media (max-width:645px){
+    .coursl{
+        width: 433px;
+    }
+    .back1{
+        width: 433px;
+    }
+    .back__text{
+        font-size: 20px;
+    }
+
+
+}
+
+@media (max-width:434px){
+    .coursl{
+        width: 300px;
+    }
+    .back1{
+        width: 333px;
+    }
+    .back__text{
+        font-size: 15px;
+    }
+
+}
+@media (max-width:965px){
+
+}
+
+
+
